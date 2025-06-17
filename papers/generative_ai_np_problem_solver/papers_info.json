@@ -1,0 +1,61 @@
+{
+  "2502.03669v1": {
+    "title": "Unrealized Expectations: Comparing AI Methods vs Classical Algorithms for Maximum Independent Set",
+    "authors": [
+      "Yikai Wu",
+      "Haoyu Zhao",
+      "Sanjeev Arora"
+    ],
+    "summary": "AI methods, such as generative models and reinforcement learning, have\nrecently been applied to combinatorial optimization (CO) problems, especially\nNP-hard ones. This paper compares such GPU-based methods with classical\nCPU-based methods on Maximum Independent Set (MIS). Experiments on standard\ngraph families show that AI-based algorithms fail to outperform and, in many\ncases, to match the solution quality of the state-of-art classical solver KaMIS\nrunning on a single CPU. Some GPU-based methods even perform similarly to the\nsimplest heuristic, degree-based greedy. Even with post-processing techniques\nlike local search, AI-based methods still perform worse than CPU-based solvers.\n  We develop a new mode of analysis to reveal that non-backtracking AI methods,\ne.g. LTFT (which is based on GFlowNets), end up reasoning similarly to the\nsimplest degree-based greedy approach, and thus worse than KaMIS. We also find\nthat CPU-based algorithms, notably KaMIS, have strong performance on sparse\nrandom graphs, which appears to refute a well-known conjectured upper bound for\nefficient algorithms from Coja-Oghlan & Efthymiou (2015).",
+    "pdf_url": "http://arxiv.org/pdf/2502.03669v1",
+    "published": "2025-02-05"
+  },
+  "0804.4457v1": {
+    "title": "Image recognition with an adiabatic quantum computer I. Mapping to quadratic unconstrained binary optimization",
+    "authors": [
+      "Hartmut Neven",
+      "Geordie Rose",
+      "William G. Macready"
+    ],
+    "summary": "Many artificial intelligence (AI) problems naturally map to NP-hard\noptimization problems. This has the interesting consequence that enabling\nhuman-level capability in machines often requires systems that can handle\nformally intractable problems. This issue can sometimes (but possibly not\nalways) be resolved by building special-purpose heuristic algorithms, tailored\nto the problem in question. Because of the continued difficulties in automating\ncertain tasks that are natural for humans, there remains a strong motivation\nfor AI researchers to investigate and apply new algorithms and techniques to\nhard AI problems. Recently a novel class of relevant algorithms that require\nquantum mechanical hardware have been proposed. These algorithms, referred to\nas quantum adiabatic algorithms, represent a new approach to designing both\ncomplete and heuristic solvers for NP-hard optimization problems. In this work\nwe describe how to formulate image recognition, which is a canonical NP-hard AI\nproblem, as a Quadratic Unconstrained Binary Optimization (QUBO) problem. The\nQUBO format corresponds to the input format required for D-Wave superconducting\nadiabatic quantum computing (AQC) processors.",
+    "pdf_url": "http://arxiv.org/pdf/0804.4457v1",
+    "published": "2008-04-28"
+  },
+  "2504.06126v1": {
+    "title": "Accelerating Vehicle Routing via AI-Initialized Genetic Algorithms",
+    "authors": [
+      "Ido Greenberg",
+      "Piotr Sielski",
+      "Hugo Linsenmaier",
+      "Rajesh Gandham",
+      "Shie Mannor",
+      "Alex Fender",
+      "Gal Chechik",
+      "Eli Meirom"
+    ],
+    "summary": "Vehicle Routing Problems (VRP) are an extension of the Traveling Salesperson\nProblem and are a fundamental NP-hard challenge in combinatorial optimization.\nSolving VRP in real-time at large scale has become critical in numerous\napplications, from growing markets like last-mile delivery to emerging\nuse-cases like interactive logistics planning. Such applications involve\nsolving similar problem instances repeatedly, yet current state-of-the-art\nsolvers treat each instance on its own without leveraging previous examples. We\nintroduce a novel optimization framework that uses a reinforcement learning\nagent - trained on prior instances - to quickly generate initial solutions,\nwhich are then further optimized by genetic algorithms. Our framework,\nEvolutionary Algorithm with Reinforcement Learning Initialization (EARLI),\nconsistently outperforms current state-of-the-art solvers across various time\nscales. For example, EARLI handles vehicle routing with 500 locations within\n1s, 10x faster than current solvers for the same solution quality, enabling\napplications like real-time and interactive routing. EARLI can generalize to\nnew data, as demonstrated on real e-commerce delivery data of a previously\nunseen city. Our hybrid framework presents a new way to combine reinforcement\nlearning and genetic algorithms, paving the road for closer interdisciplinary\ncollaboration between AI and optimization communities towards real-time\noptimization in diverse domains.",
+    "pdf_url": "http://arxiv.org/pdf/2504.06126v1",
+    "published": "2025-04-08"
+  },
+  "1011.5447v1": {
+    "title": "Proof of Concept: Fast Solutions to NP-problems by Using SAT and Integer Programming Solvers",
+    "authors": [
+      "Rastislav Lenhardt"
+    ],
+    "summary": "In the last decade, the power of the state-of-the-art SAT and Integer\nProgramming solvers has dramatically increased. They implement many new\ntechniques and heuristics and since any NP problem can be converted to SAT or\nILP instance, we could take advantage of these techniques in general by\nconverting the instance of NP problem to SAT formula or Integer program. A\nproblem we consider, in this proof of concept, is finding a largest clique in a\ngraph. We ran several experiments on large random graphs and compared 3\napproaches: Optimised backtrack solution, Translation to SAT and Translation to\nInteger program. The last one was the fastest one.",
+    "pdf_url": "http://arxiv.org/pdf/1011.5447v1",
+    "published": "2010-11-24"
+  },
+  "2309.03924v1": {
+    "title": "Automatic Algorithm Selection for Pseudo-Boolean Optimization with Given Computational Time Limits",
+    "authors": [
+      "Catalina Pezo",
+      "Dorit Hochbaum",
+      "Julio Godoy",
+      "Roberto Asin-Acha"
+    ],
+    "summary": "Machine learning (ML) techniques have been proposed to automatically select\nthe best solver from a portfolio of solvers, based on predicted performance.\nThese techniques have been applied to various problems, such as Boolean\nSatisfiability, Traveling Salesperson, Graph Coloring, and others.\n  These methods, known as meta-solvers, take an instance of a problem and a\nportfolio of solvers as input. They then predict the best-performing solver and\nexecute it to deliver a solution. Typically, the quality of the solution\nimproves with a longer computational time. This has led to the development of\nanytime selectors, which consider both the instance and a user-prescribed\ncomputational time limit. Anytime meta-solvers predict the best-performing\nsolver within the specified time limit.\n  Constructing an anytime meta-solver is considerably more challenging than\nbuilding a meta-solver without the \"anytime\" feature. In this study, we focus\non the task of designing anytime meta-solvers for the NP-hard optimization\nproblem of Pseudo-Boolean Optimization (PBO), which generalizes Satisfiability\nand Maximum Satisfiability problems. The effectiveness of our approach is\ndemonstrated via extensive empirical study in which our anytime meta-solver\nimproves dramatically on the performance of Mixed Integer Programming solver\nGurobi, which is the best-performing single solver in the portfolio. For\nexample, out of all instances and time limits for which Gurobi failed to find\nfeasible solutions, our meta-solver identified feasible solutions for 47% of\nthese.",
+    "pdf_url": "http://arxiv.org/pdf/2309.03924v1",
+    "published": "2023-09-07"
+  }
+}

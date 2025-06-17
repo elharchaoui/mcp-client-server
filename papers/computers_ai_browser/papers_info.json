@@ -1,0 +1,62 @@
+{
+  "2503.16586v2": {
+    "title": "Big Help or Big Brother? Auditing Tracking, Profiling, and Personalization in Generative AI Assistants",
+    "authors": [
+      "Yash Vekaria",
+      "Aurelio Loris Canino",
+      "Jonathan Levitsky",
+      "Alex Ciechonski",
+      "Patricia Callejo",
+      "Anna Maria Mandalari",
+      "Zubair Shafiq"
+    ],
+    "summary": "Generative AI (GenAI) browser assistants integrate powerful capabilities of\nGenAI in web browsers to provide rich experiences such as question answering,\ncontent summarization, and agentic navigation. These assistants, available\ntoday as browser extensions, can not only track detailed browsing activity such\nas search and click data, but can also autonomously perform tasks such as\nfilling forms, raising significant privacy concerns. It is crucial to\nunderstand the design and operation of GenAI browser extensions, including how\nthey collect, store, process, and share user data. To this end, we study their\nability to profile users and personalize their responses based on explicit or\ninferred demographic attributes and interests of users. We perform network\ntraffic analysis and use a novel prompting framework to audit tracking,\nprofiling, and personalization by the ten most popular GenAI browser assistant\nextensions. We find that instead of relying on local in-browser models, these\nassistants largely depend on server-side APIs, which can be auto-invoked\nwithout explicit user interaction. When invoked, they collect and share webpage\ncontent, often the full HTML DOM and sometimes even the user's form inputs,\nwith their first-party servers. Some assistants also share identifiers and user\nprompts with third-party trackers such as Google Analytics. The collection and\nsharing continues even if a webpage contains sensitive information such as\nhealth or personal information such as name or SSN entered in a web form. We\nfind that several GenAI browser assistants infer demographic attributes such as\nage, gender, income, and interests and use this profile--which carries across\nbrowsing contexts--to personalize responses. In summary, our work shows that\nGenAI browser assistants can and do collect personal and sensitive information\nfor profiling and personalization with little to no safeguards.",
+    "pdf_url": "http://arxiv.org/pdf/2503.16586v2",
+    "published": "2025-03-20"
+  },
+  "1802.03707v1": {
+    "title": "The Need for Speed of AI Applications: Performance Comparison of Native vs. Browser-based Algorithm Implementations",
+    "authors": [
+      "Bernd Malle",
+      "Nicola Giuliani",
+      "Peter Kieseberg",
+      "Andreas Holzinger"
+    ],
+    "summary": "AI applications pose increasing demands on performance, so it is not\nsurprising that the era of client-side distributed software is becoming\nimportant. On top of many AI applications already using mobile hardware, and\neven browsers for computationally demanding AI applications, we are already\nwitnessing the emergence of client-side (federated) machine learning\nalgorithms, driven by the interests of large corporations and startups alike.\nApart from mathematical and algorithmic concerns, this trend especially demands\nnew levels of computational efficiency from client environments. Consequently,\nthis paper deals with the question of state-of-the-art performance by\npresenting a comparison study between native code and different browser-based\nimplementations: JavaScript, ASM.js as well as WebAssembly on a representative\nmix of algorithms. Our results show that current efforts in runtime\noptimization push the boundaries well towards (and even beyond) native binary\nperformance. We analyze the results obtained and speculate on the reasons\nbehind some surprises, rounding the paper off by outlining future possibilities\nas well as some of our own research efforts.",
+    "pdf_url": "http://arxiv.org/pdf/1802.03707v1",
+    "published": "2018-02-11"
+  },
+  "2111.01677v1": {
+    "title": "Top1 Solution of QQ Browser 2021 Ai Algorithm Competition Track 1 : Multimodal Video Similarity",
+    "authors": [
+      "Zhuoran Ma",
+      "Majing Lou",
+      "Xuan Ouyang"
+    ],
+    "summary": "In this paper, we describe the solution to the QQ Browser 2021 Ai Algorithm\nCompetition (AIAC) Track 1. We use the multi-modal transformer model for the\nvideo embedding extraction. In the pretrain phase, we train the model with\nthree tasks, (1) Video Tag Classification (VTC), (2) Mask Language Modeling\n(MLM) and (3) Mask Frame Modeling (MFM). In the finetune phase, we train the\nmodel with video similarity based on rank normalized human labels. Our full\npipeline, after ensembling several models, scores 0.852 on the leaderboard,\nwhich we achieved the 1st place in the competition. The source codes have been\nreleased at Github.",
+    "pdf_url": "http://arxiv.org/pdf/2111.01677v1",
+    "published": "2021-10-30"
+  },
+  "2205.15686v2": {
+    "title": "The NOMAD Artificial-Intelligence Toolkit: Turning materials-science data into knowledge and understanding",
+    "authors": [
+      "Luigi Sbail\u00f2",
+      "\u00c1d\u00e1m Fekete",
+      "Luca M. Ghiringhelli",
+      "Matthias Scheffler"
+    ],
+    "summary": "We present the Novel-Materials-Discovery (NOMAD) Artificial-Intelligence (AI)\nToolkit, a web-browser-based infrastructure for the interactive AI-based\nanalysis of materials-science findable, accessible, interoperable, and reusable\n(FAIR) data. The AI Toolkit readily operates on the FAIR data stored in the\ncentral server of the NOMAD Archive, the largest database of materials-science\ndata worldwide, as well as locally stored, users' owned data. The NOMAD Oasis,\na local, stand alone server can be also used to run the AI Toolkit. By using\nJupyter notebooks that run in a web-browser, the NOMAD data can be queried and\naccessed; data mining, machine learning, and other AI techniques can be then\napplied to analyse them. This infrastructure brings the concept of\nreproducibility in materials science to the next level, by allowing researchers\nto share not only the data contributing to their scientific publications, but\nalso all the developed methods and analytics tools. Besides reproducing\npublished results, users of the NOMAD AI toolkit can modify the Jupyter\nnotebooks towards their own research work.",
+    "pdf_url": "http://arxiv.org/pdf/2205.15686v2",
+    "published": "2022-05-31"
+  },
+  "2009.03740v1": {
+    "title": "On the Battery Consumption of Mobile Browsers",
+    "authors": [
+      "Matteo Varvello",
+      "Benjamin Livshits"
+    ],
+    "summary": "Mobile web browsing has recently surpassed desktop browsing both in term of\npopularity and traffic. Following its desktop counterpart, the mobile browsers\necosystem has been growing from few browsers (Chrome, Firefox, and Safari) to a\nplethora of browsers, each with unique characteristics (battery friendly,\nprivacy preserving, lightweight, etc.). In this paper, we introduce a browser\nbenchmarking pipeline for Android browsers encompassing automation, in-depth\nexperimentation, and result analysis. We tested 15 Android browsers, using\nCappuccino a novel testing suite we built for third party Android applications.\nWe perform a battery-centric analysis of such browsers and show that: 1)\npopular browsers tend also to consume the most, 2) adblocking produces\nsignificant battery savings (between 20 and 40% depending on the browser), and\n3) dark mode offers an extra 10% battery savings on AMOLED screens. We exploit\nthis observation to build AttentionDim, a screen dimming mechanism driven by\nbrowser events. Via integration with the Brave browser and 10 volunteers, we\nshow potential battery savings up to 30%, on both devices with AMOLED and LCD\nscreens.",
+    "pdf_url": "http://arxiv.org/pdf/2009.03740v1",
+    "published": "2020-08-06"
+  }
+}

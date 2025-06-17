@@ -1,0 +1,50 @@
+{
+  "2502.18609v3": {
+    "title": "IID-Based QPP-RNG: A Random Number Generator Utilizing Random Permutation Sorting Driven by System Jitter",
+    "authors": [
+      "Randy Kuang",
+      "Dafu Lou"
+    ],
+    "summary": "We propose a groundbreaking random number generator that achieves truly\nuniform, independent, and identically distributed (IID) randomness by\nintegrating Quantum Permutation Pads (QPP) with system jitter--derived entropy,\nherein called IID-based QPP-RNG. Unlike conventional RNGs that use raw timing\nvariations, our design uses system jitter solely to generate ephemeral QPP pads\nand derives 8-bit outputs directly from permutation counts, eliminating the\nneed for post-processing. This approach leverages the factorial complexity of\npermutation sorting to systematically accumulate entropy from dynamic hardware\ninteractions, ensuring non-deterministic outputs even from fixed seeds.\nNotably, IID-based QPP-RNG achieves a min-entropy of 7.85-7.95 bits per byte\nfrom IID min-entropy estimate, surpassing ID Quantique's QRNG (7.157042 bits\nper byte), which marks a breakthrough in randomness quality. Our implementation\nemploys a dynamic seed evolution protocol that continuously refreshes the\ninternal state with unpredictable system jitter, effectively decoupling the QPP\nsequence from the initial seed. Cross-platform validation on macOS (x86 and\nARM) and Windows (x86) confirms uniformly distributed outputs, while\nevaluations compliant with NIST SP 800-90B show a Shannon entropy of 7.9999\nbits per byte. Overall, IID-based QPP-RNG represents a significant advancement\nin random number generation, offering a scalable, system-based, software-only,\npost-quantum secure solution for a wide range of cryptographic applications.",
+    "pdf_url": "http://arxiv.org/pdf/2502.18609v3",
+    "published": "2025-02-25"
+  },
+  "math/9906149v2": {
+    "title": "Theorie de Toda sur reseau et espaces homogenes quantiques",
+    "authors": [
+      "C. Grunspan"
+    ],
+    "summary": "Cet article expose un isomorphisme entre l'espace des phases du systeme de\nsinus-Gordon quantique sur reseaux et un espace homogene quantique pour\n$U_q(\\hat{sl_2})$.",
+    "pdf_url": "http://arxiv.org/pdf/math/9906149v2",
+    "published": "1999-06-22"
+  },
+  "2402.10988v1": {
+    "title": "Cryptography: Classical versus Post-Quantum",
+    "authors": [
+      "Abhinav Awasthi",
+      "Atul Chaturvedi"
+    ],
+    "summary": "The advantages of post-quantum cryptography over classical cryptography are\ncovered in this survey. We address several post-quantum cryptography\ntechniques. We conclude that the deployment of quantum-safe cryptographic\nsystems is anticipated to be the future of secure communication, and that the\ndevelopment of post-quantum cryptography is essential to guarantee the security\nof sensitive information in the post quantum era.",
+    "pdf_url": "http://arxiv.org/pdf/2402.10988v1",
+    "published": "2024-02-16"
+  },
+  "2402.10576v1": {
+    "title": "Post-Quantum Cryptography",
+    "authors": [
+      "Pranjal",
+      "Atul Chaturvedi"
+    ],
+    "summary": "In this survey we propose to cover the prose of post-quantum cryptography\nover classical cryptography. We talk about the various cryptographic methods\nthat are being practiced to safeguard our information. The future of secure\ncommunication is expected to be the implementation of quantum-safe\ncryptographic systems, and that in the post-quantum era, the development of\npost-quantum cryptography is essential for ensuring the security of sensitive\ndata.",
+    "pdf_url": "http://arxiv.org/pdf/2402.10576v1",
+    "published": "2024-02-16"
+  },
+  "1201.3214v1": {
+    "title": "M\u00e9canique quantique",
+    "authors": [
+      "Emmanuel Humbert"
+    ],
+    "summary": "This text aims to explains briefly the formalism of quantum mechanics to\nmathematicians.",
+    "pdf_url": "http://arxiv.org/pdf/1201.3214v1",
+    "published": "2012-01-16"
+  }
+}
